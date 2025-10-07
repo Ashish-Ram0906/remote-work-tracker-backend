@@ -1,0 +1,23 @@
+#Python virtual environment
+venv/
+
+#Python cache files
+pycache/
+*.py[cod]
+*$py.class
+
+#Environment variables file
+.env
+
+#Testing folder
+tests/
+
+#Database seeding script
+seed_data.py
+check.py
+#Pytest cache
+.pytest_cache/
+
+#Test reports
+test-report.html
+assets/
