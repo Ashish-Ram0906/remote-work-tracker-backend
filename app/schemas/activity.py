@@ -8,6 +8,7 @@ class ActivityLogEntry(BaseModel):
     state: str
     app: str | None = None
     title: str | None = None
+    duration: int | None = None
 
 class ActivityPayload(BaseModel):
     employee_id: str
